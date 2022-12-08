@@ -22,9 +22,15 @@ export function Post(){
         
             <div className={styles.content}>
                 <p>Fala camaradas 👋</p>
-                <p>Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare</p>
-                <p><a href="">site.com</a></p>
-                <p><a href="">#novoprojeto #RocketSeat</a></p>
+                <p>Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
+                <p>
+                    <a href="">site.com</a>
+                </p>
+                <p>
+                    <a href="">#novoprojeto</a>{'  '}
+                    <a href="">#RocketSeat</a>{'  '}
+                    <a href="">#devFrontend</a>
+                </p>
             </div>
         </article>
     )

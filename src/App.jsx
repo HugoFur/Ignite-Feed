@@ -17,6 +17,10 @@ export function App() {
         author="Hugo Furtado"
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid nisi dignissimos, quasi omnis sapiente!"
         />
+        <Post 
+        author="Hugo Furtado"
+        content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid nisi dignissimos, quasi omnis sapiente!"
+        />
        </main>
       </div>
     </div>
