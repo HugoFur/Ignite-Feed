@@ -110,10 +110,15 @@ usado aqui para aparecer o button "publicar" quando  houver foco no "textarea" *
     transition: background-color 0.2s;
 }
 
-.commentForm button[type=submit]:hover {
+.commentForm button[type=submit]:not(:disabled)hover {
     background: var(--green-300);
 }
 
 .commentList {
     margin-top: 2rem;
+}
+
+.commentForm button[type=submit]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
