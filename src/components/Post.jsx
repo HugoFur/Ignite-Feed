@@ -1,17 +1,14 @@
+import { Avatar } from "./Avatar"
 import { Comment } from "./Comment"
 import styles from "./Post.module.css"
 
-export function Post(){
+export function Post() {
     return (
         <article className={styles.post}>
-            
+
             <header>
                 <div className={styles.author}>
-                    <img 
-                    className={styles.avatar}
-                    src="https://avatars.githubusercontent.com/u/71742937?v=4"
-                    alt="Foto de perfil do usuário"
-                    />
+                    <Avatar src="https://avatars.githubusercontent.com/u/71742937?v=4" />
                     <div className={styles.authorInfo}>
                         <strong>Hugo Furtado</strong>
                         <span>Web developer</span>
@@ -20,7 +17,7 @@ export function Post(){
 
                 <time dateTime="2022-12-08 11:10:15">Publicado há 1h</time>
             </header>
-        
+
             <div className={styles.content}>
                 <p>Fala camaradas 👋</p>
                 <p>Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
@@ -37,7 +34,7 @@ export function Post(){
             <form className={styles.commentForm}>
                 <strong>Deixe seu feedback</strong>
                 <textarea
-                placeholder="Deixe um comentario..." 
+                    placeholder="Deixe um comentario..."
                 />
                 <footer>
                     <button type="submit">Publicar</button>
