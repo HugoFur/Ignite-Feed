@@ -1,7 +1,8 @@
 # 🚀 Ignite Feed
 
-> Minha versão do projeto desenvolvido durante módulo do Ignite - ReactJS da Rocketseat.
+> Minha versão frontend do projeto desenvolvido durante módulo do Ignite - ReactJS da Rocketseat.
 
+Demo: https://ignitefeeddemo.vercel.app
 
 ## Instalando Ignite Feed
 
