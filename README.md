@@ -1,4 +1,4 @@
-# 🚀 Ignite Feed - Em construção
+# 🚀 Ignite Feed
 
 > Minha versão do projeto desenvolvido durante módulo do Ignite - ReactJS da Rocketseat.
 
